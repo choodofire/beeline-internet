@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body p {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  background-color: #161616;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+}
+.header__logo {
+  margin: auto 5px auto 200px;
+}
+.header__link {
+  position: absolute;
+  display: flex;
+  right: 200px;
+}
+.header__phone {
+  background-color: #f7a700;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 8px 15px 0 15px;
+  line-height: 20px;
+  vertical-align: middle;
+  height: 60px;
+}
+.header__phone a {
+  color: #161616;
+  text-decoration: none;
+}
+.header__phone:hover {
+  transition: 0.4s;
+  color: #ffffff;
+  cursor: pointer;
+}
+.header__phone:hover a {
+  transition: 0.4s;
+  color: #ffffff;
+}
+.header__request {
+  margin: auto 0 auto 20px;
+}
+.header__request a {
+  color: #f7a700;
+}
+.header__request a:hover {
+  color: #b47b00;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+$black: #161616;
+$orange: #f7a700;
+$white: #ffffff;
+$orangedark: #b47b00;
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.header {
+    display: flex;
+    background-color: $black;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    &__logo {
+        margin: auto 5px auto 200px;
+    }
+    &__link {
+        position: absolute;
+        display: flex;
+        right: 200px;
+    }
+    &__phone {
+        background-color: $orange;
+        font-weight: bold;
+        font-size: 14px;
+        padding: 8px 15px 0 15px;
+        line-height: 20px;
+        vertical-align: middle;
+        height: 60px;
+        a {
+            color: $black;
+            text-decoration: none;
+        }
+    }
+    &__phone:hover {
+        transition: 0.4s;
+        color: $white;
+        cursor: pointer;
+        a {
+            transition: 0.4s;
+            color: $white;
+        }
+    }
+    &__request {
+        margin: auto 0 auto 20px;
+        a {
+            color: $orange;
+        }
+        a:hover {
+            color: $orangedark
+        }
+    }
+}
+main {
+    
+}
